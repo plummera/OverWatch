@@ -1,0 +1,229 @@
+.App {
+  animation: fade-2 infinite 4s linear;
+  background: black;
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin-clockwise infinite 3s linear;
+  height: 28vmin;
+  opacity: 1;
+}
+
+.App-logo:hover {
+  animation: App-logo-spin-counter-clockwise infinite 1s linear;
+  border-radius: 777rem;
+  border-radius: 50px;
+  border-bottom-width: 0rem;
+  border-top-width: 0rem;
+}
+
+.App-header {
+  animation: fade-1 infinite 1s linear;
+  background: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  opacity: 1;
+  position: fixed;
+  width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.close {
+  background: floralwhite;
+  border-radius: 3px;
+  height: 33px;
+  opacity: 0.3;
+  position: absolute;
+  right: 33px;
+  top: 33px;
+  width: 33px;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.closeButton {
+  top: 1%;
+  right: 1%;
+  background-image: '../images/closeButton.png';
+  height: 10px;
+  width: 10px;
+}
+
+.roadshow {
+  margin: 0;
+}
+
+#FieldsetCheck {
+  display: -webkit-inline-box;
+  margin: 0rem 0.5rem 0 0;
+  position: relative;
+}
+
+#formPhoto {
+  animation: App-logo-spin-clockwise infinite 3s linear;
+  height: 6rem;
+  margin-bottom: 2rem;
+  padding: 0px 0px 0px 0px;
+}
+
+#headline {
+  background: none;
+  color: #eee357;
+  display: -webkit-inline-box;
+  font-family: 'Quattrocento Sans';
+  margin: 0 13.8%;
+  max-width: 45%;
+  opacity: 0.8;
+  padding: 0 11%;
+  position: fixed;
+  text-align: center;
+  text-shadow: white 1px 1px;
+  top: 6%;
+  z-index: 5;
+}
+
+#loginForm {
+  background: red;
+  border-radius: 25px;
+  display: none;
+  height: auto;
+  margin: 6rem 13rem;
+  opacity: 0;
+  position: fixed;
+  padding: 3rem;
+  width: 84%;
+  z-index: 10;
+}
+
+#menu {
+  display: none;
+  opacity: 0;
+  position: static;
+}
+
+#splashButton {
+  animation: App-logo-spin-clockwise infinite 3s linear;
+  background: none;
+  border: 0px;
+  left: 43%;
+  position: fixed;
+  top: 26%;
+  z-index: 15;
+}
+
+form {
+  text-align: -webkit-center;
+  text-align: center;
+}
+
+@keyframes App-logo-spin-clockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin-counter-clockwise {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes Fade-TF-out {
+  from {
+    background: #fff;
+  }
+  to {
+    background: #000;
+  }
+}
+
+@keyframes Fade-TF-in {
+  from {
+    background: #000;
+  }
+  to {
+    background: #fff;
+  }
+}
+
+@keyframes fade-1 {
+  0%,100% { opacity: .5 }
+  50% { opacity: 1 }
+}
+
+@keyframes fade-2 {
+  0%,100% { opacity: 1 }
+  50% { opacity: .5 }
+}
+
+@keyframes fade-out {
+  100%, 0% { opacity: 1 }
+  100% { opacity: 0 }
+}
+
+@keyframes fade-in {
+  0%,100% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+@media only screen and (max-width: 600px) {
+  #headline {
+    max-width: 65%;
+    padding: 0;
+    position: fixed;
+    top: 9%;
+  }
+
+  #loginForm {
+    background: red;
+    border-radius: 25px;
+    display: none;
+    height: auto;
+    margin: 6rem 2rem;
+    opacity: 0;
+    position: fixed;
+    padding: 3rem;
+    width: 84%;
+    z-index: 10;
+  }
+
+  #splashButton {
+    animation: App-logo-spin-clockwise infinite 3s linear;
+    background: none;
+    border: 0px;
+    left: 7.5rem;
+    position: absolute;
+    top: 9.1rem;
+    z-index: 15;
+  }
+}

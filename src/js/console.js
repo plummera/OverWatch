@@ -1,0 +1,13 @@
+console.log('');
+console.log('  d8888 8888888b.        8888888888                   d8b                                    d8b                   ');
+console.log('d88888 888   Y88b       888                          Y8P                                    Y8P                   ');
+console.log('d88P888 888    888       888                                                                                       ');
+console.log('d88P 888 888   d88P       8888888    88888b.   .d88b.  888 88888b.   .d88b.   .d88b.  888d888 888 88888b.   .d88b.  ');
+console.log('d88P  888 8888888P"        888        888 "88b d88P"88b 888 888 "88b d8P  Y8b d8P  Y8b 888P"   888 888 "88b d88P"88b ');
+console.log('d88P   888 888              888        888  888 888  888 888 888  888 88888888 88888888 888     888 888  888 888  888 ');
+console.log('d8888888888 888              888        888  888 Y88b 888 888 888  888 Y8b.     Y8b.     888     888 888  888 Y88b 888 ');
+console.log('d88P     888 888              8888888888 888  888  "Y88888 888 888  888  "Y8888   "Y8888  888     888 888  888  "Y88888 ');
+console.log('                                                       888                                                          888 ');
+console.log('                                                  Y8b d88P                                                     Y8b d88P ');
+console.log('                                                   "Y88P"                                                       "Y88P"  ');
+console.log('');
